@@ -2,7 +2,6 @@ import numpy as np
 from rdkit import Chem
 from standardiser import standardise
 
-
 def standardise_smiles(smiles):
     mols = []
     for smi in smiles:
